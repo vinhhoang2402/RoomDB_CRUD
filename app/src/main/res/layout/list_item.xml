@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_margin="10dp"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:text="Name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:text="Email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:text="City"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/txt_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/txt_city"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+</LinearLayout>
